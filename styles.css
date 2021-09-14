@@ -1,0 +1,21 @@
+@media (max-width: 600px) {
+   
+{
+  
+ 
+    padding: 15px;
+}
+
+
+   
+
+#arriba
+{
+    background-color: aqua;
+    padding: 35PX;
+}
+#abajo
+{
+    background-color: rgb(212, 98, 56);
+    padding: 25PX;
+}
