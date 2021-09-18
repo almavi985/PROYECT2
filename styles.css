@@ -1,21 +1,80 @@
-@media (max-width: 600px) {
-   
-{
-  
- 
-    padding: 15px;
-}
-
-
-   
-
 #arriba
 {
     background-color: aqua;
     padding: 35PX;
+    
 }
-#abajo
+
+.bodyy
+{
+   margin: left;
+    width: 400PX;
+    border: 2px solid blue;
+    padding-top: 100px;
+  padding-right: 30px;
+  padding-bottom:130px;
+  padding-left: 80px;
+    
+}
+.arriba
+ {
+
+    display: block;
+     text-align: center;
+    width: 300px;
+    border: auto;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+   
+  }
+
+  #insertar
+  {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    border: 3px solid hsl(22, 74%, 52%);
+    
+  }
+
+  #insertar2
+  {
+
+    width: 300px;
+    border: 3px solid #2ca6df;
+   
+  }
+  #agregar
+  {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: auto;
+    border: 3px solid #2cdf77;
+    
+  }
+  #eliminar
+  {
+    float: right;
+    width: 300px;
+    border: 3px solid #cddf2c;
+   
+  }
+  #abajo
 {
     background-color: rgb(212, 98, 56);
-    padding: 25PX;
+    padding: 35PX;
+}
+
+#Lista
+{
+    background-color: greenyellow;
+    padding-top: 10px;
+    padding-right: 100px;
+    padding-bottom:100px;
+    padding-left: 50px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid rgb(255, 0, 200);
 }
