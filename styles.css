@@ -55,7 +55,6 @@
   #eliminar
   {
     float: right;
-    width: 300px;
     border: 3px solid #cddf2c;
    
   }
@@ -77,4 +76,114 @@
     left: 50%;
     transform: translate(-50%, -50%);
     border: 2px solid rgb(255, 0, 200);
+}
+
+.lista{
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+
+
+@media (max-width: 360px) {
+    body {
+        background-color: yellow;
+
+    }
+    
+    #arriba
+    {
+        background-color: aqua;
+        padding: 15PX;
+        
+    }
+    
+    .bodyy
+    {
+       margin: left;
+    
+        padding-top: 10px;
+      padding-right: 30px;
+      padding-bottom:10px;
+      padding-left: 10px;
+        
+    }
+    .arriba
+     {
+    
+        display: block;
+         text-align: center;
+        width: 300px;
+        border: auto;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+       
+      }
+    
+      #insertar
+      {
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 300px;
+        border: 3px solid hsl(22, 74%, 52%);
+        
+      }
+    
+      #insertar2
+      {
+    
+        width: 300px;
+        border: 3px solid #2ca6df;
+       
+      }
+      #agregar
+      {
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        border: auto;
+        border: 3px solid #2cdf77;
+        
+      }
+      #eliminar
+      {
+        float: left;
+        border: 3px solid #cddf2c;
+       
+      }
+    
+    
+    #Lista
+    {
+        background-color: greenyellow;
+        border: 2px solid rgb(255, 0, 200);
+       
+        position: absolute;
+        bottom: 550px;
+        right:750px ;
+        width: 100px;
+        
+    }
+    .lista{
+        display: flex;
+        flex-direction: column; 
+        flex-wrap: wrap-reverse;
+        justify-content: flex-end;
+    }
+   
+    #abajo
+    {   
+        background-color: rgb(212, 98, 56);
+        position: absolute;
+        display: block;
+        padding-block-start: 2pc;
+        padding-bottom: 1pc;
+        padding-left: 15pc;
+        padding-top: 2pc;
+         text-align: center;
+         
+         
+     
+        
+    }
+    
 }

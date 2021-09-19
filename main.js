@@ -1,7 +1,8 @@
-const InputElementRef = document.getElementById('insertar',)
-const InputElementRef2 = document.getElementById('insertar2',)
+const InputElementRef = document.getElementById('insertar')
+const InputElementRef2 = document.getElementById('insertar2')
 const BotonElementRef = document.getElementById('agregar')
-const BotonElElementRef = document.getElementById('btn_eliminar')
+const BotonElElementRef = document.getElementById('eliminar')
+const BotonActElementRef = document.getElementById('actualizar')
 const ListaRef = document.getElementById('Lista')
 
 BotonElementRef.addEventListener('click', function() {
@@ -9,7 +10,8 @@ BotonElementRef.addEventListener('click', function() {
 
     // TODO Agregar un nuevo elemento en nuestro document html
     const listItem = document.createElement('li')
-    listItem.innerHTML = InputElementRef.value +' '+InputElementRef2.value
+    listItem.innerHTML = InputElementRef.value +' '+InputElementRef2.value 
+    
 
     ListaRef.appendChild(listItem)
 })
