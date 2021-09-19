@@ -20,17 +20,14 @@ BotonElElementRef.addEventListener('click', function() {
     localStorage.removeItem('Mensaje')
 })
 
-window.onload = () => {
-    const mensaje = localStorage.getItem('Mensaje')
 
-    const listItem = document.createElement('li')
-    listItem.innerHTML = mensaje
-
-    ListaRef.appendChild(listItem)
-}
 
 //Obtener primer hijo
 document.getElementById('Lista').firstChild
 
 //Obtener el hijo n
 document.getElementById('Lista').children[0]
+
+
+
+
