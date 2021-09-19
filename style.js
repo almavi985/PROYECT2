@@ -1,4 +1,4 @@
-const InputElementRef = document.getElementById('insertar')
+/*const InputElementRef = document.getElementById('insertar')
 const BotonElementRef = document.getElementById('agregar')
 const BotonElElementRef = document.getElementById('eliminar')
 const BotonActElementRef = document.getElementById('actualizar')
@@ -9,8 +9,8 @@ var tareas =[]
 window.onload = () => {
     const tareasconelformato= JSON.parse(window.localStorage.getItem('tareas'))
  
-    tareas=tareasconelformato
-    tareas.forEach(tarea=> {
+    tareas = tareasconelformato
+    tareas.forEach( tarea => {
         agregartareaeneldom(tarea.nombre)
     });
     
